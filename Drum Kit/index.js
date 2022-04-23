@@ -45,7 +45,7 @@ drum.forEach(function(btn){
     //identify to 
 
   });
-})
+});
 //if you find the query "button", then addEventListner to the button by clicking the button to call function which is handleClick
 
 // Here I don't call the function as handleClick(), but passing a function by wating until the click event happened
@@ -56,3 +56,8 @@ function handleClick() {
 }
 */
 
+window.addEventListener("keydown", function(event){
+  console.log(event);
+});
+
+//entire webpage starts listenling for the key down
